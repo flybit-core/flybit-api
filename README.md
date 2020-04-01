@@ -373,11 +373,11 @@ API List
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
     <tr><td>authorization</td><td>String</td><td>Header(accessKey,nonce)</td></tr>
-    <tr><td>marketId</td><td>int</td><td>unique key (1)</td></tr>
-    <tr><td>amount</td><td>int</td><td>Order quantity</td></tr>
-    <tr><td>orderType</td><td>String</td><td>Order type</td></tr>
-    <tr><td>callType</td><td>Number</td><td>Order Type ( B: Buy , S: Sell)  </td></tr>
-    <tr><td>price</td><td>int</td><td>Order price</td></tr>
+    <tr><td>marketId</td><td>Number</td><td>unique key (1)</td></tr>
+    <tr><td>amount</td><td>Number</td><td>Order quantity</td></tr>
+    <tr><td>orderType</td><td>String</td><td>Order type(N)</td></tr>
+    <tr><td>callType</td><td>String</td><td>Order Type ( B: Buy , S: Sell)  </td></tr>
+    <tr><td>price</td><td>Number</td><td>Order price</td></tr>
   </table>
   <p>Return Parameters</p>
   <table>
