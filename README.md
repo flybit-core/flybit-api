@@ -394,13 +394,8 @@ API List
   {
     "result": [
         {
-            "ORDER_ID": 40860911,
-            "SIDE": "B",
-            "ORD_TYPE": "N",
-            "PRICE": 11210000,
-            "STATE": "CC",
-            "MARKET": "KRW",
-            "CURRENCY": "BTC"
+            "orderId": 40860911,
+            "status": "true"
         }
     ]
   }
