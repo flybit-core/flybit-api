@@ -376,7 +376,7 @@ API List
     <tr><td>marketId</td><td>Number</td><td>unique key (1)</td></tr>
     <tr><td>amount</td><td>Number</td><td>Order quantity</td></tr>
     <tr><td>orderType</td><td>String</td><td>Order Type ( B: Buy , S: Sell)</td></tr>
-    <tr><td>callType</td><td>String</td><td></td>call type(N)</td></tr>
+    <tr><td>callType</td><td>String</td><td>call type(N)</td></tr>
     <tr><td>price</td><td>Number</td><td>Order price</td></tr>
   </table>
   <p>Return Parameters</p>
