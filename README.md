@@ -301,6 +301,7 @@ API List
     <tr><td>authorization</td><td>String</td><td>Header(accessKey,nonce)</td></tr>
     <tr><td>orderId</td><td>String</td><td>Order number(if none)</td></tr>
     <tr><td>marketId</td><td>Number</td><td>unique key (1)</td></tr>
+    <tr><td>state</td><td>String</td><td>Order Status ( GO: Order , CC: Cancel, CM: Closed)</td></tr>
     <tr><td>count</td><td>Number</td><td>Number of inquary (Default 100)</td></tr>
   </table>
   <p>Return Parameters</p>
