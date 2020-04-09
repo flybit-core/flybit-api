@@ -300,8 +300,7 @@ API List
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
     <tr><td>authorization</td><td>String</td><td>Header(accessKey,nonce)</td></tr>
     <tr><td>orderId</td><td>String</td><td>Order number(if none)</td></tr>
-    <tr><td>market</td><td>String</td><td>unique key (KRW)</td></tr>
-    <tr><td>currency</td><td>String</td><td>an abbreviation for money on English</td></tr>
+    <tr><td>marketId</td><td>Number</td><td>unique key (1)</td></tr>
     <tr><td>count</td><td>Number</td><td>Number of inquary (Default 100)</td></tr>
   </table>
   <p>Return Parameters</p>
