@@ -430,7 +430,7 @@ API List
   ERROR CODE
 -------------
 <table style="width:90%">
-  <thead><tr><th>CODE</th><th>Description(ENG)</th></tr></thead>
+  <thead><tr><th>CODE</th><th>Description(ENG)</th><th>Description(ENG)</th></tr></thead>
   <tbody><tr><td>9001</td><td>Description</td></tr>
   <tr><td>9002</td><td>Description</td></tr>
   <tr><td>9003</td><td>Description</td></tr>
