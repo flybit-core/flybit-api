@@ -430,27 +430,27 @@ API List
   ERROR CODE
 -------------
 <table style="width:90%">
-  <thead><tr><th>CODE</th><th>Description(ENG)</th><th>Description(ENG)</th></tr></thead>
-  <tbody><tr><td>9001</td><td>Description</td></tr>
-  <tr><td>9002</td><td>Description</td></tr>
-  <tr><td>9003</td><td>Description</td></tr>
-  <tr><td>4001</td><td>Description</td></tr>
-  <tr><td>4002</td><td>Description</td></tr>
-  <tr><td>4003</td><td>Description</td></tr>
-  <tr><td>4004</td><td>Description</td></tr>
-  <tr><td>4005</td><td>Description</td></tr>
-  <tr><td>4010</td><td>Description</td></tr>
-  <tr><td>4070</td><td>Description</td></tr>
-  <tr><td>4080</td><td>Description</td></tr>
-  <tr><td>4090</td><td>Description</td></tr>
-  <tr><td>20011</td><td>Description</td></tr>
-  <tr><td>20012</td><td>Description</td></tr>
-  <tr><td>20021</td><td>Description</td></tr>
-  <tr><td>20022</td><td>Description</td></tr>
-  <tr><td>20031</td><td>Description</td></tr>
-  <tr><td>20032</td><td>Description</td></tr>
-  <tr><td>20033</td><td>Description</td></tr>
-  <tr><td>5000</td><td>Description</td></tr>
-  <tr><td>5001</td><td>Description</td></tr>
+  <thead><tr><th>CODE</th><th>Description(ENG)</th><th>Description(CHN)</th></tr></thead>
+  <tbody><tr><td>9001</td><td>Expire Token</td><td></td></tr>
+  <tr><td>9002</td><td>Wrong Token</td><td></td></tr>
+  <tr><td>9003</td><td>Call count exceeded</td><td></td></tr>
+  <tr><td>4001</td><td>Market ID error</td><td>市场ID错误</td></tr>
+  <tr><td>4002</td><td>Order Type error</td><td>买入/卖出 错误</td></tr>
+  <tr><td>4003</td><td>Call Type error</td><td>市价/限价 错误</td></tr>
+  <tr><td>4004</td><td>Price error</td><td>价格错误</td></tr>
+  <tr><td>4005</td><td>Account error</td><td>数量错误</td></tr>
+  <tr><td>4010</td><td>user ID error</td><td></td></tr>
+  <tr><td>4070</td><td>You cannot trade more than the maximum quantity</td><td>不能超过最大购买数量</td></tr>
+  <tr><td>4080</td><td>You cannot trade less than the minimum quantity</td><td>不能低于最小购买数量</td></tr>
+  <tr><td>4090</td><td>Description</td><td>Description</td></tr>
+  <tr><td>20011</td><td>Description</td><td>Description</td></tr>
+  <tr><td>20012</td><td>Purchase order amount is greater than the available amount</td><td>钱包余额不足</td></tr>
+  <tr><td>20021</td><td>Description</td><td>Description</td></tr>
+  <tr><td>20022</td><td>The amount of the sell order is greater than the amount available</td><td>钱包余额不足</td></tr>
+  <tr><td>20031</td><td>You have ordered more than the maximum order price</td><td>高于最大价格买入</td></tr>
+  <tr><td>20032</td><td>you have ordered less than the minimum order price</td><td>低于最小价格卖出</td></tr>
+  <tr><td>20033</td><td>There is no order number</td><td>交易序号不存在</td></tr>
+  <tr><td>5000</td><td>system error</td><td>Description</td></tr>
+  <tr><td>5001</td><td>error</td><td>Description</td></tr>
   </tbody>
 </table>
