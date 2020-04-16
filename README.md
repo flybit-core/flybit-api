@@ -426,3 +426,31 @@ API List
     ]
   }
   </pre>
+  
+  ERROR CODE
+-------------
+<table style="width:90%">
+  <thead><tr><th>CODE</th><th>Description(ENG)</th></tr></thead>
+  <tbody><tr><td>9001</td><td>Description</td></tr>
+  <tr><td>9002</td><td>Description</td></tr>
+  <tr><td>9003</td><td>Description</td></tr>
+  <tr><td>4001</td><td>Description</td></tr>
+  <tr><td>4002</td><td>Description</td></tr>
+  <tr><td>4003</td><td>Description</td></tr>
+  <tr><td>4004</td><td>Description</td></tr>
+  <tr><td>4005</td><td>Description</td></tr>
+  <tr><td>4010</td><td>Description</td></tr>
+  <tr><td>4070</td><td>Description</td></tr>
+  <tr><td>4080</td><td>Description</td></tr>
+  <tr><td>4090</td><td>Description</td></tr>
+  <tr><td>20011</td><td>Description</td></tr>
+  <tr><td>20012</td><td>Description</td></tr>
+  <tr><td>20021</td><td>Description</td></tr>
+  <tr><td>20022</td><td>Description</td></tr>
+  <tr><td>20031</td><td>Description</td></tr>
+  <tr><td>20032</td><td>Description</td></tr>
+  <tr><td>20033</td><td>Description</td></tr>
+  <tr><td>5000</td><td>Description</td></tr>
+  <tr><td>5001</td><td>Description</td></tr>
+  </tbody>
+</table>
