@@ -15,6 +15,11 @@ API List
   <tr><td><a href="#ticker">public/ticker</a></td><td>Public</td><td>Get Ticker</td></tr>
   <tr><td><a href="#orderbook">public/orderbook</a></td><td>Public</td><td>Get OrderBook</td></tr>
   <tr><td><a href="#transhistory">public/transaction_history</a></td><td>Public</td><td>Get Transaction History</td></tr>
+  <tr><td><a href="#candlesMinutes">public/candles/minutes/</a></td><td>Public</td><td>Get Candles Minutes</td></tr>
+  <tr><td><a href="#candlesHour">public/candles/hour</a></td><td>Public</td><td>Get Candles Hour</td></tr>
+  <tr><td><a href="#candlesDay">public/candles/day</a></td><td>Public</td><td>Get Candles Day</td></tr>
+  <tr><td><a href="#candlesWeek">public/candles/week</a></td><td>Public</td><td>Get Candles Week</td></tr>
+  <tr><td><a href="#candlesMonth">public/candles/month</a></td><td>Public</td><td>Get Candles Month</td></tr>
   <tr><td><a href="#sysstatus">public/systemStatus</a></td><td>Public</td><td>Get System Status</td></tr>
   <tr><td><a href="#waddress">private/walletInfo</a></td><td>Private</td><td>Get Account Balances</td></tr>
   <tr><td><a href="#orderhis">private/orderHis</a></td><td>Private</td><td>Get Order History</td></tr>
@@ -196,7 +201,163 @@ API List
 
   </pre>  
   
-  ####  <p id="sysstatus" name="sysstatus">5. System Status</p>
+  ####  <p id="candlesMinutes" name="candlesMinutes">5. Candles Minutes</p>
+  > **Description:**
+  Chart Minutes
+  > - url : https://api.flybit.com/candles/minutes/1?market=KRW-BTC
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>1</td><td>String</td><td>Minutes(1, 5, 15, 30)</td></tr>
+    <tr><td>market</td><td>String</td><td>Market Group</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>volume</td><td>Number(String)</td><td>volume</td></tr>
+    <tr><td>open</td><td>Number(String)</td><td>open</td></tr>
+    <tr><td>close</td><td>Number(String)</td><td>close</td></tr>
+    <tr><td>low</td><td>Number(String)</td><td>low</td></tr>
+    <tr><td>high</td><td>Number(String)</td><td>high</td></tr>
+    <tr><td>dt</td><td>Number(String)</td><td>dt</td></tr>
+  </table>
+  <pre>
+  {
+        "volume": 67908,
+        "open": 129.06,
+        "close": 114.95,
+        "low": 114.81,
+        "high": 129.06,
+        "dt": 1593064800000
+  }
+
+  </pre>  
+  
+  ####  <p id="candlesHour" name="candlesHour">6. Candles Hour</p>
+  > **Description:**
+  Chart Hour
+  > - url : https://api.flybit.com/candles/hour?market=KRW-BTC
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>market</td><td>String</td><td>Market Group</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>volume</td><td>Number(String)</td><td>volume</td></tr>
+    <tr><td>open</td><td>Number(String)</td><td>open</td></tr>
+    <tr><td>close</td><td>Number(String)</td><td>close</td></tr>
+    <tr><td>low</td><td>Number(String)</td><td>low</td></tr>
+    <tr><td>high</td><td>Number(String)</td><td>high</td></tr>
+    <tr><td>dt</td><td>Number(String)</td><td>dt</td></tr>
+  </table>
+  <pre>
+  {
+        "volume": 67908,
+        "open": 129.06,
+        "close": 114.95,
+        "low": 114.81,
+        "high": 129.06,
+        "dt": 1593064800000
+  }
+
+  </pre>
+  
+  ####  <p id="candlesDay" name="candlesDay">7. Candles Day</p>
+  > **Description:**
+  Chart Day
+  > - url : https://api.flybit.com/candles/day?market=KRW-BTC
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>market</td><td>String</td><td>Market Group</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>volume</td><td>Number(String)</td><td>volume</td></tr>
+    <tr><td>open</td><td>Number(String)</td><td>open</td></tr>
+    <tr><td>close</td><td>Number(String)</td><td>close</td></tr>
+    <tr><td>low</td><td>Number(String)</td><td>low</td></tr>
+    <tr><td>high</td><td>Number(String)</td><td>high</td></tr>
+    <tr><td>dt</td><td>Number(String)</td><td>dt</td></tr>
+  </table>
+  <pre>
+  {
+        "volume": 67908,
+        "open": 129.06,
+        "close": 114.95,
+        "low": 114.81,
+        "high": 129.06,
+        "dt": 1593064800000
+  }
+
+  </pre>
+  
+  ####  <p id="candlesWeek" name="candlesWeek">8. Candles Week</p>
+  > **Description:**
+  Chart Week
+  > - url : https://api.flybit.com/candles/week?market=KRW-BTC
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>market</td><td>String</td><td>Market Group</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>volume</td><td>Number(String)</td><td>volume</td></tr>
+    <tr><td>open</td><td>Number(String)</td><td>open</td></tr>
+    <tr><td>close</td><td>Number(String)</td><td>close</td></tr>
+    <tr><td>low</td><td>Number(String)</td><td>low</td></tr>
+    <tr><td>high</td><td>Number(String)</td><td>high</td></tr>
+    <tr><td>dt</td><td>Number(String)</td><td>dt</td></tr>
+  </table>
+  <pre>
+  {
+        "volume": 67908,
+        "open": 129.06,
+        "close": 114.95,
+        "low": 114.81,
+        "high": 129.06,
+        "dt": 1593064800000
+  }
+
+  </pre>
+  
+  ####  <p id="candlesMonth" name="candlesMonth">9. Candles Month</p>
+  > **Description:**
+  Chart Month
+  > - url : https://api.flybit.com/candles/month?market=KRW-BTC
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>market</td><td>String</td><td>Market Group</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>volume</td><td>Number(String)</td><td>volume</td></tr>
+    <tr><td>open</td><td>Number(String)</td><td>open</td></tr>
+    <tr><td>close</td><td>Number(String)</td><td>close</td></tr>
+    <tr><td>low</td><td>Number(String)</td><td>low</td></tr>
+    <tr><td>high</td><td>Number(String)</td><td>high</td></tr>
+    <tr><td>dt</td><td>Number(String)</td><td>dt</td></tr>
+  </table>
+  <pre>
+  {
+        "volume": 67908,
+        "open": 129.06,
+        "close": 114.95,
+        "low": 114.81,
+        "high": 129.06,
+        "dt": 1593064800000
+  }
+
+  </pre>
+  
+  ####  <p id="sysstatus" name="sysstatus">10. System Status</p>
   > **Description:**
   Provides processing system information
   > - url : https://api.flybit.com/v2/public/systemStatus
@@ -241,7 +402,7 @@ API List
   </pre>  
   
   
-  ####  <p id="waddress" name="waddress">6. Wallet Account Balance</p>
+  ####  <p id="waddress" name="waddress">11. Wallet Account Balance</p>
   > **Description:**
   Provides the transaction wallet member's coin wallet address, quantity and usage
   > - url : https://api.flybit.com/v2/private/walletInfo
@@ -291,7 +452,7 @@ API List
 
   </pre>
 
-  ####  <p id="orderhis" name="orderhis">7. Order History</p>
+  ####  <p id="orderhis" name="orderhis">12. Order History</p>
   > **Description:**
   Processing history provides members buy / sell-registered or history information of the transaction
   > - url : https://api.flybit.com/v2/private/orderHis
@@ -365,7 +526,7 @@ API List
   }
   </pre>
 
-  ####  <p id="order" name="order">8. Order</p>
+  ####  <p id="order" name="order">13. Order</p>
   > **Description:**
   Processing history Buy / Sell register function
   > - url : https://api.flybit.com/v2/private/order
@@ -401,7 +562,7 @@ API List
   }
   </pre>
   
-  ####  <p id="cancel" name="cancel">9. Cancel</p>
+  ####  <p id="cancel" name="cancel">14. Cancel</p>
   > **Description:**
   Processing history offers registered buy / sell order cancellation feature
   > - url : https://api.flybit.com/v2/private/deleteOrder
